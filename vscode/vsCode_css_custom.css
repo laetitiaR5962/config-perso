@@ -49,6 +49,7 @@ table th {
   padding: 5px 10px !important;
   background-color: #ddd !important;
   break-inside: avoid;
+  color:#333;
 }
 
 table td {
