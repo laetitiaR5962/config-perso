@@ -27,15 +27,9 @@ h1:first-child {
   margin-top: 0px !important;
 }
 
-h1 + p,
-h1 + ul,
-h1 + table,
-h2 + p,
-h2 + ul,
-h2 + table,
-h3 + p,
-h3 + ul,
-h3 + table {
+h1 + :is(p, ul, table),
+h2 + :is(p, ul, table),
+h3 + :is(p, ul, table) {
   margin-top: 10px;
 }
 
@@ -81,9 +75,24 @@ blockquote h6 {
   font-size: inherit;
 }
 
+.avertissement > blockquote {
+  border-left-color: #E05252;
+  background-color: #FDECEC;
+}
+
 .warning > blockquote {
-  border-left-color: #f29633;
+  border-left-color: #F29633;
   background-color: #fceede;
+}
+
+.info > blockquote {
+  border-left-color: #3498DB;
+  background-color: #EBF5FB;
+}
+
+.exemple > blockquote {
+  border-left-color: #929BA5;
+  background-color: #F1F3F5;
 }
 
 ul,
