@@ -3,17 +3,47 @@ code {
   background: #f0f0f0 !important;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   border-bottom: 1px solid #ccc;
-  padding-bottom: 0.3em;
 }
 
-h1, h2, h3, h4, h5 {
-    break-after: avoid;
-    page-break-after: avoid;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  break-after: avoid;
+  page-break-after: avoid;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding-bottom: 0.2em;
 }
 
-table { 
+h1:first-child {
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+
+h1 + p,
+h1 + ul,
+h1 + table,
+h2 + p,
+h2 + ul,
+h2 + table,
+h3 + p,
+h3 + ul,
+h3 + table {
+  margin-top: 10px;
+}
+
+hr {
+  border-bottom: 1px solid #c9c8c7;
+}
+
+table {
   border-collapse: collapse !important;
   border: 2px solid #6e6e6e !important;
   width: 100% !important;
@@ -36,13 +66,35 @@ table td {
 }
 
 blockquote {
-    margin: 0;
-    padding: 10px 15px;
-    border-radius: 0 4px 4px 0;     /* Arrondit légèrement les coins droits */
-    text-align: justify;
+  margin: 10px 0px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-align: justify;
 }
 
 blockquote p {
-    margin: 0;
+  margin: 0;
 }
 
+blockquote h6 {
+  margin: 0;
+  font-size: inherit;
+}
+
+.warning > blockquote {
+  border-left-color: #f29633;
+  background-color: #fceede;
+}
+
+ul,
+ol {
+  margin-block-start: 5px;
+}
+
+li {
+  margin: 2px 0px;
+}
+
+p {
+  margin: 3px;
+}
