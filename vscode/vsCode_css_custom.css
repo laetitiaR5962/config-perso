@@ -1,0 +1,48 @@
+code {
+  color: #000 !important;
+  background: #f0f0f0 !important;
+}
+
+h1, h2, h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3em;
+}
+
+h1, h2, h3, h4, h5 {
+    break-after: avoid;
+    page-break-after: avoid;
+}
+
+table { 
+  border-collapse: collapse !important;
+  border: 2px solid #6e6e6e !important;
+  width: 100% !important;
+}
+
+table th {
+  border: none !important;
+  border-bottom: 1px solid #474747 !important;
+  padding: 5px 10px !important;
+  background-color: #ddd !important;
+  break-inside: avoid;
+}
+
+table td {
+  border: none !important;
+  border-top: 1px solid #ddd !important;
+  border-right: 1px solid #ddd !important;
+  padding: 5px 10px !important;
+  break-inside: avoid;
+}
+
+blockquote {
+    margin: 0;
+    padding: 10px 15px;
+    border-radius: 0 4px 4px 0;     /* Arrondit légèrement les coins droits */
+    text-align: justify;
+}
+
+blockquote p {
+    margin: 0;
+}
+
