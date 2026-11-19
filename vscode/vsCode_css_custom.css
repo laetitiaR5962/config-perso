@@ -1,6 +1,7 @@
 code {
   color: #000 !important;
   background: #f0f0f0 !important;
+  font-size: inherit;
 }
 
 h1,
