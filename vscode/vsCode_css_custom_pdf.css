@@ -1,0 +1,167 @@
+body {
+  background-color: #ffffff !important;
+  color: #24292e !important;
+  font-size: 12px;
+}
+
+a {
+  color: #0366d6 !important;
+}
+
+code,
+pre {
+  background-color: #f6f8fa !important;
+  color: #24292e !important;
+}
+
+blockquote {
+  border-left: 4px solid #dfe2e5 !important;
+  color: #535b63 !important;
+  background-color: #f6f8fa !important;
+  margin: 10px 0px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-align: justify;
+}
+
+blockquote p {
+  margin: 0;
+  color: inherit !important;
+}
+
+blockquote h6 {
+  margin: 0;
+  font-size: inherit;
+}
+
+code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+h1,
+h2,
+h3 {
+  border-bottom: 1px solid #ccc !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding-bottom: 0.2em;
+}
+
+h5,
+h6 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 0.2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #24292e !important;  
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h1:first-child {
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+
+h1 + :is(p, ul, table),
+h2 + :is(p, ul, table),
+h3 + :is(p, ul, table) {
+  margin-top: 10px;
+}
+
+hr {
+  border-bottom: 1px solid #c9c8c7 !important;
+}
+
+table {
+  border-collapse: collapse !important;
+  border: 2px solid #6e6e6e !important;
+  width: 100% !important;
+}
+
+table th {
+  border: none !important;
+  border-bottom: 1px solid #474747 !important;
+  padding: 5px 10px !important;
+  background-color: #ddd !important;
+  break-inside: avoid;
+  color: #333;
+}
+
+table td {
+  border: none !important;
+  border-top: 1px solid #ddd !important;
+  border-right: 1px solid #ddd !important;
+  padding: 5px 10px !important;
+  break-inside: avoid;
+}
+
+.avertissement > blockquote {
+  border-left-color: #e05252;
+  background-color: #fdecec;
+}
+
+.warning > blockquote {
+  border-left-color: #f29633;
+  background-color: #fceede;
+}
+
+.info > blockquote {
+  border-left-color: #3498db;
+  background-color: #ebf5fb;
+}
+
+.exemple > blockquote {
+  border-left-color: #929ba5;
+  background-color: #f1f3f5;
+}
+
+ul,
+ol {
+  margin-block-start: 5px;
+}
+
+li {
+  margin: 2px 0px;
+}
+
+p {
+  margin: 3px 0px;
+}

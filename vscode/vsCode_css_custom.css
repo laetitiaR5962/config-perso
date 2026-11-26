@@ -1,6 +1,7 @@
 body {
   background-color: #ffffff !important;
   color: #24292e !important;
+  font-size: 14px;
 }
 
 a {
@@ -37,10 +38,50 @@ code {
   font-size: inherit;
 }
 
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
 h1,
 h2,
 h3 {
   border-bottom: 1px solid #ccc !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding-bottom: 0.2em;
+}
+
+h5,
+h6 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 0.2em;
 }
 
 h1,
@@ -52,9 +93,6 @@ h6 {
   color: #24292e !important;  
   break-after: avoid;
   page-break-after: avoid;
-  margin-top: 20px;
-  margin-bottom: 5px;
-  padding-bottom: 0.2em;
 }
 
 h1:first-child {
