@@ -1,6 +1,38 @@
+body {
+  background-color: #ffffff !important;
+  color: #24292e !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #24292e !important;
+}
+
+a {
+  color: #0366d6 !important;
+}
+
+code,
+pre {
+  background-color: #f6f8fa !important;
+  color: #24292e !important;
+}
+
+blockquote {
+  border-color: #dfe2e5 !important;
+  color: #6a737d !important;
+}
+
+table th,
+table td {
+  border-color: #dfe2e5 !important;
+}
+
 code {
-  color: #000 !important;
-  background: #f0f0f0 !important;
   font-size: inherit;
 }
 
@@ -50,7 +82,7 @@ table th {
   padding: 5px 10px !important;
   background-color: #ddd !important;
   break-inside: avoid;
-  color:#333;
+  color: #333;
 }
 
 table td {
@@ -66,7 +98,6 @@ blockquote {
   padding: 10px 15px;
   border-radius: 4px;
   text-align: justify;
-  color: #333;
 }
 
 blockquote p {
@@ -79,23 +110,23 @@ blockquote h6 {
 }
 
 .avertissement > blockquote {
-  border-left-color: #E05252;
-  background-color: #FDECEC;
+  border-left-color: #e05252;
+  background-color: #fdecec;
 }
 
 .warning > blockquote {
-  border-left-color: #F29633;
+  border-left-color: #f29633;
   background-color: #fceede;
 }
 
 .info > blockquote {
-  border-left-color: #3498DB;
-  background-color: #EBF5FB;
+  border-left-color: #3498db;
+  background-color: #ebf5fb;
 }
 
 .exemple > blockquote {
-  border-left-color: #929BA5;
-  background-color: #F1F3F5;
+  border-left-color: #929ba5;
+  background-color: #f1f3f5;
 }
 
 ul,
